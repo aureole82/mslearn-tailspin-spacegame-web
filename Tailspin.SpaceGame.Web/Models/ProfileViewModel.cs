@@ -2,9 +2,10 @@
 {
     public class ProfileViewModel
     {
-        // The player profile.
-        public Profile Profile;
-        // The player's rank according to the active filter.
-        public string Rank;
+        /// <summary> The player profile. </summary>
+        public Profile Profile { get; set; }
+
+        /// <summary> The player's rank according to the active filter. </summary>
+        public string Rank { get; set; }
     }
 }
